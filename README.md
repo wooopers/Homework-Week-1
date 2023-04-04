@@ -1,3 +1,4 @@
+.gitignore
 # Homework-week1
 
 refracting given code in order to match mock up
