@@ -34,7 +34,7 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
-          destination: ./_site
+          destination: .https://github.com/wooopers/Homework-Week-1/blob/main/assets/index2.html/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
