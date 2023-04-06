@@ -7,9 +7,8 @@ on:
     branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+  workflow_dispatch: ["https://github.com/wooopers/Homework-Week-1/blob/main/assets/index2.html
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages"]
 permissions:
   contents: read
   pages: write
@@ -34,7 +33,7 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
-          destination: .https://github.com/wooopers/Homework-Week-1/blob/main/assets/index2.html/_site
+          destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
